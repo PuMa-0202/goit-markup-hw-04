@@ -1,0 +1,14 @@
+.advantages { padding: 120px 0; }
+
+.advantages-list { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+
+.advantage-icon-wrap {
+  display: flex; align-items: center; justify-content: center;
+  height: 112px; background: var(--color-bg-light); border-radius: 4px; margin-bottom: 8px;
+}
+
+.advantage-icon-wrap svg { width: 64px; height: 64px; fill: var(--color-text-main); }
+
+.advantage-title { font-weight: 500; font-size: 20px; line-height: 1.2; letter-spacing: 0.02em; color: var(--color-text-main); margin-bottom: 8px; }
+
+.advantage-text { font-size: 16px; line-height: 1.5; }

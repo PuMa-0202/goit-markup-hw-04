@@ -1,0 +1,28 @@
+.our-team { background: var(--color-bg-light); padding: 120px 0; }
+
+.section-title { font-size: 36px; font-weight: 700; line-height: 1.11; letter-spacing: 0.02em; text-align: center; color: var(--color-text-main); text-transform: capitalize; margin-bottom: 72px; }
+
+.team-list { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+
+.team-card { background: #fff; border-radius: 0 0 4px 4px; box-shadow: var(--shadow-team); text-align: center; }
+
+.team-card img { width: 100%; height: 260px; object-fit: cover; object-position: top; }
+
+.team-card-body { padding: 32px 16px; }
+
+.team-name { font-weight: 500; font-size: 20px; line-height: 1.2; letter-spacing: 0.02em; color: var(--color-text-main); margin-bottom: 8px; }
+
+.team-role { font-size: 16px; line-height: 1.5; }
+
+.social-list { display: flex; justify-content: center; gap: 24px; margin-top: 8px; }
+
+.social-link {
+  display: flex; align-items: center; justify-content: center;
+  width: 40px; height: 40px; border-radius: 50%;
+  background: var(--color-primary);
+  transition: background-color var(--transition);
+}
+
+.social-link:hover, .social-link:focus { background: var(--color-primary-hover); }
+
+.social-link svg { width: 16px; height: 16px; fill: #fff; }

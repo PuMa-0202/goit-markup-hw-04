@@ -1,0 +1,28 @@
+:root {
+  --color-primary: #4d5ae5;
+  --color-primary-hover: #404bbf;
+  --color-text-main: #2e2f42;
+  --color-text-body: #434455;
+  --color-bg-light: #f4f4fd;
+  --color-border: #e7e9fc;
+  --color-overlay: #4d5ae5;
+  --shadow-team: 0 1px 6px rgba(46,47,66,.08), 0 1px 1px rgba(46,47,66,.16), 0 2px 1px rgba(46,47,66,.08);
+  --shadow-portfolio: 0 1px 6px rgba(46,47,66,.08), 0 1px 1px rgba(46,47,66,.16), 0 2px 1px rgba(46,47,66,.08);
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body { font-family: 'Roboto', sans-serif; color: var(--color-text-body); background: #fff; line-height: 1.5; }
+
+img { display: block; max-width: 100%; }
+
+a { text-decoration: none; color: inherit; }
+
+ul { list-style: none; }
+
+button { cursor: pointer; border: none; background: none; font-family: inherit; }
+
+.container { max-width: 1158px; margin: 0 auto; padding: 0 15px; }
+
+.svg-sprite { display: none; position: absolute; width: 0; height: 0; overflow: hidden; }

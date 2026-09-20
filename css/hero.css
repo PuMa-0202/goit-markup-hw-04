@@ -1,0 +1,23 @@
+.hero {
+  background-color: var(--color-text-main);
+  background-image:
+    linear-gradient(rgba(46,47,66,.70), rgba(46,47,66,.70)),
+    url('../images/people-office-1.png');
+  background-repeat: no-repeat; background-position: center; background-size: cover;
+  max-width: 1440px; margin: 0 auto;
+  padding: 188px 0; text-align: center;
+}
+
+.hero-title {
+  font-size: 56px; font-weight: 700; line-height: 1.07; letter-spacing: 0.02em;
+  color: #fff; max-width: 496px; margin: 0 auto 48px;
+}
+
+.btn-primary {
+  background: var(--color-primary); color: #fff;
+  font-size: 16px; font-weight: 500; letter-spacing: 0.04em; line-height: 1.5;
+  padding: 16px 32px; border-radius: 4px;
+  transition: background-color var(--transition), box-shadow var(--transition);
+}
+
+.btn-primary:hover, .btn-primary:focus { background: var(--color-primary-hover); box-shadow: 0 4px 4px rgba(0,0,0,.15); }
